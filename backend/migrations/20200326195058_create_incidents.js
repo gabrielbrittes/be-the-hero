@@ -13,6 +13,6 @@ exports.up = function(knex) {
    });
    };
  exports.down = function(knex) {
-  return knex.schema.dropTble('incidents');
+  return knex.schema.dropTable('incidents');
      
    };
